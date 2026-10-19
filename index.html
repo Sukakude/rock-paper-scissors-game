@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>RPS Game</title>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <h1 id="heading">RPS Game</h1>
+            <ul>
+                <li><a href="#">Rules</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="game-buttons">
+            <button class="btn" id="rock-btn">Rock</button>
+            <button class="btn" id="paper-btn">Paper</button>
+            <button class="btn" id="scissors-btn">Scissors</button>
+        </div>
+        <div id="game-message"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
